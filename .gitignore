@@ -1,3 +1,4 @@
 # Ignore all .txt files except README.txt
 *.txt
 !README.txt
+__pycache__/*
