@@ -7,7 +7,7 @@ ui = UI()
 def build_barracks():
     print("Building Barracks...")
 
-ui.add_buttons(pygame.Rect(10, 50, 100, 30), "Build Barracks", build_barracks)
+ui.add_buttons(pygame.Rect(10, 50, 120, 30), "Build Barracks", build_barracks)
 ui.add_buttons(pygame.Rect(10, 90, 100, 30), "Train Unit", lambda: print("Training Unit..."))
 
 
